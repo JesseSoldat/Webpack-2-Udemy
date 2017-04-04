@@ -68,7 +68,12 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__image_viewer_css__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__image_viewer_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__image_viewer_css__);
+
 
 const image = document.createElement('img');
 image.src = 'http://lorempixel.com/400/400';
@@ -92,12 +97,17 @@ const sum = (a, b) => a + b;
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sum__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__image_viewer__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__image_viewer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__image_viewer__);
 
 
 
 const total = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__sum__["a" /* default */])(10, 10);
 console.log(total);
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
