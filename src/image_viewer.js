@@ -1,3 +1,6 @@
+import small from '../assets/small.jpg';
+import big from '../assets/big.jpg';
+
 import './image_viewer.css';
 
 const image = document.createElement('img');
